@@ -170,6 +170,7 @@ function filterByWord(array, string){
   return filteredArray;
 }
 console.log('Task 7', filterByWord(originalFlavors,'Chocolate'));
+yes
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
