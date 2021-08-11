@@ -117,7 +117,7 @@ Use the getFlavorByIndex function below to do the following:
 function getFlavorByIndex(/*your code here*/){
   /*your code here*/
 }
-
+/*return array[index]*/
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, 
@@ -133,9 +133,12 @@ Use the removeFlavorByName function below to do the following:
 
   HINT: You can use .splice() for this
 */
-
+// two parameter array, string
 function removeFlavorByName(/*your code here*/){
-  /*your code here*/
+  /*loop through the array and check each index for the string*/
+  //conditional that checks for exact match ===
+// if the item matches the string, remove item at that specific index .spice - index (i) and number to delete
+//outside of loop return the array
 }
 
 
@@ -167,10 +170,10 @@ function filterByWord(array, string){
       filteredArray.push(array[i])
     }
   }
-  return filteredArray;
+  return filteredArra
 }
 console.log('Task 7', filterByWord(originalFlavors,'Chocolate'));
-yes
+
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
